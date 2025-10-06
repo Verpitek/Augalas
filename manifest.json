@@ -1,0 +1,50 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"lenaks."
+		],
+		"generated_with": {
+			"bridge": [
+				"2.7.50"
+			],
+			"dash": [
+				"0.11.7"
+			]
+		}
+	},
+	"header": {
+		"name": "pack.name",
+		"description": "pack.description",
+		"min_engine_version": [
+			1,
+			20,
+			0
+		],
+		"uuid": "5e276092-0f9e-437e-be39-601a13bc1fc0",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "script",
+			"entry": "scripts/main.js",
+			"language": "javascript",
+			"uuid": "d2dc3059-49e2-45e9-a679-06a0ab4c7e04",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "2.0.0"
+		}
+	]
+}
